@@ -4,12 +4,14 @@
 *
 *  @author    Evan Elias Young
 *  @date      2020-02-03
-*  @date      2020-02-03
+*  @date      2020-02-06
 *  @copyright Copyright 2020 Evan Elias Young. All rights reserved.
 */
 
 #ifndef SORTING_UTILS_H_
 #define SORTING_UTILS_H_
+
+#include "pch.h"
 
 /**
 * @brief Swaps two elements in an array.
@@ -18,7 +20,7 @@
 * @param i The index of the first element.
 * @param j The index of the second element.
 */
-void array_swap(ARRAY_TYPE *array, ARRAY_TYPE i, ARRAY_TYPE j);
+void array_swap(ARRAY_TYPE *array, size_t i, size_t j);
 
 /**
 * @brief Fills an array with ascending numbers.

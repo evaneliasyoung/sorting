@@ -17,7 +17,7 @@
 * @param i The index of the first element.
 * @param j The index of the second element.
 */
-void array_swap(ARRAY_TYPE *array, ARRAY_TYPE i, ARRAY_TYPE j)
+void array_swap(ARRAY_TYPE *array, size_t i, size_t j)
 {
   ARRAY_TYPE tmp = array[i];
   array[i] = array[j];

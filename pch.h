@@ -4,7 +4,7 @@
 *
 *  @author    Evan Elias Young
 *  @date      2020-02-03
-*  @date      2020-02-05
+*  @date      2020-02-06
 *  @copyright Copyright 2020 Evan Elias Young. All rights reserved.
 */
 
@@ -17,7 +17,7 @@
 #include <time.h>
 
 #ifndef NUM_ALGS
-#define NUM_ALGS 5
+#define NUM_ALGS 6
 #endif // NUM_ALGS
 
 #ifndef ARRAY_TYPE

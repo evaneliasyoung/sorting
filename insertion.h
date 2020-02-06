@@ -4,12 +4,14 @@
 *
 *  @author    Evan Elias Young
 *  @date      2020-02-03
-*  @date      2020-02-03
+*  @date      2020-02-06
 *  @copyright Copyright 2020 Evan Elias Young. All rights reserved.
 */
 
 #ifndef SORTING_INSERTION_H_
 #define SORTING_INSERTION_H_
+
+#include "pch.h"
 
 /**
 * @brief Runs the insertion sort.
