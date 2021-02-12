@@ -4,8 +4,8 @@
 *
 *  @author    Evan Elias Young
 *  @date      2020-02-03
-*  @date      2020-02-06
-*  @copyright Copyright 2020 Evan Elias Young. All rights reserved.
+*  @date      2021-02-11
+*  @copyright Copyright 2020-2021 Evan Elias Young. All rights reserved.
 */
 
 #include "pch.h"
@@ -17,6 +17,7 @@
 #include "comb.h"
 #include "quick.h"
 #include "shell.h"
+#include "heap.h"
 
 void run_sorts(ARRAY_TYPE *array)
 {
@@ -26,14 +27,16 @@ void run_sorts(ARRAY_TYPE *array)
       "Bubble Sort   \0",
       "Comb Sort     \0",
       "Quicksort     \0",
-      "Shellsort     \0"};
+      "Shellsort     \0",
+      "Heapsort      \0"};
   void (*funcs[NUM_ALGS])(ARRAY_TYPE *) = {
       run_insertion,
       run_selection,
       run_bubble,
       run_comb,
       run_quick,
-      run_shell};
+      run_shell,
+      run_heap};
 
   ARRAY_TYPE *tmp_array;
 

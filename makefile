@@ -2,7 +2,7 @@ CC      = gcc
 FLAGS   = -g -Wall
 POSTS   = -lmingw32
 HEADERS = pch.h.gch
-OBJECTS = main.o utils.o insertion.o selection.o bubble.o comb.o quick.o shell.o
+OBJECTS = main.o utils.o insertion.o selection.o bubble.o comb.o quick.o shell.o heap.o
 
 default: sorting.exe
 

@@ -12,5 +12,6 @@
 ### Efficient Sorts
 * Quicksort
 * Shellsort
+* Heapsort
 
 ### Distribution Sorts

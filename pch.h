@@ -4,8 +4,8 @@
 *
 *  @author    Evan Elias Young
 *  @date      2020-02-03
-*  @date      2020-02-06
-*  @copyright Copyright 2020 Evan Elias Young. All rights reserved.
+*  @date      2021-02-11
+*  @copyright Copyright 2020-2021 Evan Elias Young. All rights reserved.
 */
 
 #ifndef SORTING_PCH_H_
@@ -17,7 +17,7 @@
 #include <time.h>
 
 #ifndef NUM_ALGS
-#define NUM_ALGS 6
+#define NUM_ALGS 7
 #endif // NUM_ALGS
 
 #ifndef ARRAY_TYPE
