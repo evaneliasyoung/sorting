@@ -4,8 +4,8 @@
 *
 *  @author    Evan Elias Young
 *  @date      2020-02-03
-*  @date      2020-02-06
-*  @copyright Copyright 2020 Evan Elias Young. All rights reserved.
+*  @date      2021-02-11
+*  @copyright Copyright 2020-2021 Evan Elias Young. All rights reserved.
 */
 
 #ifndef SORTING_UTILS_H_
@@ -58,6 +58,16 @@ ARRAY_TYPE *create_array();
 * @return ARRAY_TYPE* A pointer to the cloned array.
 */
 ARRAY_TYPE *clone_array(ARRAY_TYPE *original);
+
+/**
+* @brief Copies an array to another.
+*
+* @param src The array to copy.
+* @param dest The array to copy to.
+* @param stt The starting index.
+* @param end The ending index.
+*/
+void copy_array(ARRAY_TYPE *src, ARRAY_TYPE *dest, size_t stt, size_t end);
 
 /**
 * @brief Prints an array to stdout.
